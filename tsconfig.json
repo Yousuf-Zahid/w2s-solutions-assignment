@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es2017"],
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,  
+    "noImplicitAny": false, 
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

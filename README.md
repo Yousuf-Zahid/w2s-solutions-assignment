@@ -19,23 +19,23 @@ Then, navigate to the project directory and install the dependencies:
 
 # Running the Application
 
-    To start the application, run the command:
+To start the application, run the command:
 
     npm start
 
 This will start the server at http://localhost:8080/ The server provides an API endpoint for fetching data. 
 
-# API Endpoints
- * User Authentication
-    POST /signup: Creates a new user account.
-    POST /login: Logs in an existing user.
 
- * Customers
-    GET /customers: Retrieves all customers.
-    GET /customers/:id: Retrieves a single customer.
-    POST /customers: Creates a new customer.
-    PUT /customers/:id: Updates an existing customer.
-    DELETE /customers/:id: Deletes a customer.
+# User Endpoints
+- POST /signup: Creates a new user account.
+- POST /login: Logs in an existing user.
+
+# Customers Endpoints
+- GET /customers: Retrieves all customers.
+- GET /customers/:id: Retrieves a single customer.
+- POST /customers: Creates a new customer.
+- PUT /customers/:id: Updates an existing customer.
+- DELETE /customers/:id: Deletes a customer.
 
 # Postman Collection
     A Postman collection for this project is included in this repository. You can import the collection into Postman to test the API endpoints. To import the collection, follow these steps:
